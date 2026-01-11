@@ -1,0 +1,343 @@
+/*---------------------*/
+/*----- LES FONTS -----*/
+/*---------------------*/
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot');
+  src: url('../fonts/fontawesome-webfont.eot#iefix&'), 
+      url('../fonts/fontawesome-webfont.woff2'), 
+      url('../fonts/fontawesome-webfont.woff'), 
+      url('../fonts/fontawesome-webfont.ttf'), 
+      url('../fonts/fontawesome-webfont.svg#fontawesomeregular');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DroidSans';
+  src: url('../fonts/DroidSans.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*---------------------*/
+/*----- EN COMMUN -----*/
+/*---------------------*/
+body {
+	font-family: 'DroidSans','FontAwesome';
+}
+
+conteneur {
+	display:flex;
+	flex-direction: column;
+}
+
+
+/*---------------------*/
+/*----- SECTION 1 -----*/
+/*---------------------*/
+#section_logoetmenu {
+	z-index: 2;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	min-height: 80px;
+	width:100%;
+	position: fixed;
+	background-color: white;
+	margin-top:-8px;
+	padding-top: 20px;
+
+}
+
+#divlogo {
+	margin-left: 100px;
+}
+
+#divmenu {
+	margin-right: 100px;
+}
+
+li{
+	list-style-type: none;
+	display: inline;
+	padding: 20px;
+}
+
+li a {
+	font-size: 1.2em;
+	/*text-transform: uppercase;*/
+	color: #3491B2;
+	padding-top: 3px;
+	text-decoration: none;
+}
+li a:hover
+{
+	color: #3491B2;
+	border-top: 3px solid #3491B2;
+}
+/*---------------------*/
+/*----- SECTION 2 -----*/	
+/*---------------------*/
+#section_accueil {
+	padding-top: 100px;
+}
+
+#img_accueil {
+	background-image: url(../images/slider/bg1.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	min-height: 500px;
+}
+
+.titre_autour_accueil {
+	width: 10%;
+}
+.titre_accueil {
+	padding-top: 100px;
+	padding-left: 100px;
+	color: white;
+	font-size: 0.8em;
+	text-align: left	;
+	width: 40%;
+}
+
+#titreBlanc {
+	color: white;
+}
+
+#titreBleu {
+	color: #3491B2; /* Bleu */
+}
+
+#texteBlanc {
+	color: white;
+}
+
+#bouton_accueil{
+	background-color: #3491B2; /* Bleu */
+	color: white;
+	height: 40px;
+	width: 100px;
+    border-radius: 5px 5px 5px 5px;
+	border-style: hidden;
+}
+
+#bouton_accueil:hover
+{
+	color: #3491B2;
+	background-color: rgba(0, 0, 0, 0.28); /* Bleu */
+}
+
+#fond_degrade
+{
+    background-image: linear-gradient(white, #F5F5F5);
+    width: 100%;
+    height: 50px;
+}
+
+#fleche_nav_gauche {
+	z-index: 1;
+	position:absolute;
+	top:300px;
+	left:10px;
+	color:white;
+    border-radius: 0 40px 40px 0;
+	width:24px;
+	height:36px;
+	background: rgba(0, 0, 0, 0.28);
+}
+
+#fleche_nav_droite {
+	z-index: 1;
+	position:absolute;
+	top:300px;	
+	right:10px;
+	color:white;
+    border-radius: 40px 0 0 40px;
+	width:24px;
+	height:36px;
+	background: rgba(0, 0, 0, 0.28);
+	text-align: right;
+}
+
+/*---------------------*/
+/*----- SECTION 3-----*/
+/*---------------------*/
+#section_services {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+#service_2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.titre_flex_row {
+	display: flex;
+	flex-direction: row;
+}
+.titre_corps{
+	text-align: center;
+	font-size: 3em;
+}
+.titre_autour {
+	width:20%;
+}
+.titre_description {
+	width:60%;
+	text-align: center;
+}
+
+#moniteur {
+	width:50%;
+	min-width: 500px;
+}
+#uxuiseo {
+	width:50%;
+	min-width: 500px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.alignerlogotexte {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.imgageservices {
+	width:20%;
+}
+.texteservices {
+	width:80%;
+}
+
+/*---------------------*/
+/*----- SECTION 4 -----*/
+/*---------------------*/
+#section_projets {
+	display:flex;
+	flex-direction: column;
+	background-color: #F5F5F5;
+	padding-bottom: 30px;
+}
+
+.portfolio {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+button[id*="btn_prj_"] {
+	background-color: #3491B2; /* Bleu */
+	color: white;
+	height: 40px;
+	width: 80px;
+    border-radius: 5px 5px 5px 5px;
+	border-style: hidden;
+}
+
+button[id*="btn_prj_"]:hover {
+	color: #3491B2;
+	background-color: rgba(0, 0, 0, 0.28); /* Bleu */
+}
+
+#btns_projets {
+	padding-top: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+/*
+#img_pf_1 {
+	background-image: url(../images/portfolio/01.jpg);
+}
+
+#img_pf_2 {
+	background-image: url(../images/portfolio/02.jpg);
+}
+#img_pf_3 {
+	background-image: url(../images/portfolio/03.jpg);
+}
+
+#img_pf_4 {
+	background-image: url(../images/portfolio/04.jpg);
+}
+#img_pf_5 {
+	background-image: url(../images/portfolio/05.jpg);
+}
+#img_pf_6 {
+	background-image: url(../images/portfolio/06.jpg);
+}
+#img_pf_7 {
+	background-image: url(../images/portfolio/07.jpg);
+}
+#img_pf_8 {
+	background-image: url(../images/portfolio/08.jpg);
+}
+
+*/
+div[id*="img_pf_"] {
+	width:auto;
+	height:auto;
+	padding: 10px;
+	margin:auto;
+}
+
+div[id*="img_pf_"] :over {
+	background: background: rgba(0, 0, 0, 0.28);
+}
+	
+/*---------------------*/
+/*----- SECTION 5 -----*/
+/*---------------------*/
+#section_contact {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+#avant_form {
+	width:60%;	
+}
+
+#en_form {
+	width:20%;
+	background-color: darkgrey;
+	padding-left: 10px;
+	opacity:0.3;
+}
+
+#apres_form {
+	width:10%;
+}
+
+#img_contact {
+	background-image: url("../images/map_contact.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	min-height: 500px;
+}
+
+#bouton_form{
+	background-color: #3491B2; /* Bleu */
+	color: white;
+	height: 40px;
+	width: 120px;
+    border-radius: 5px 5px 5px 5px;
+	border-style: hidden;
+}
+
+#bouton_form:hover
+{
+	color: #3491B2;
+	background-color: rgba(0, 0, 0, 0.28); /* Bleu */
+}
+
+

@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fontawesome-webfont.eot');
+  src: url('fontawesome-webfont.eot#iefix&'), 
+      url('fontawesome-webfont.woff2'), 
+      url('fontawesome-webfont.woff'), 
+      url('fontawesome-webfont.ttf'), 
+      url('fontawesome-webfont.svg#fontawesomeregular');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DroidSans';
+  src: url('DroidSans.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/******************************************************Section 1************************************************************/
+
+#section1{
+    text-align: center;
+    font-family: 'FontAwesome','DroidSans';
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'FontAwesome','DroidSans';
+}
+
+.image{
+    vertical-align: middle;
+}
+
+.image2{
+    width: 70px;
+}
+
+p{
+    font-family: 'FontAwesome','DroidSans'; 
+}
+
+.height{
+    line-height: 30px;
+}
+
+/*****************************************************Section 2*************************************************************/
+
+.image3{
+    float: left;
+    margin-left: 40px;
+    width: 500px;
+}
+
+/****************************************************Section3***************************************************************/
+
+#section3{
+    float: right;
+    margin-right: 40px;
+    margin-left: 700px;
+    position: absolute;
+}
+
+h3{
+    line-height: 1px;
+    font-family: 'FontAwesome','DroidSans';
+}
+
+.image4{
+    float: left;
+    padding-right: 10px;
+}
+
+.para{
+    line-height: 30px;
+    font-family: 'FontAwesome','DroidSans';
+}

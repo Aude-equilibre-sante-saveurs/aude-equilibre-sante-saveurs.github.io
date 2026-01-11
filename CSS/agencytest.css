@@ -1,0 +1,2532 @@
+@font-face 
+{
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot');
+  src: url('../fonts/fontawesome-webfont.eot#iefix&'), 
+      url('../fonts/fontawesome-webfont.woff2'), 
+      url('../fonts/fontawesome-webfont.woff'), 
+      url('../fonts/fontawesome-webfont.ttf'), 
+      url('../fonts/fontawesome-webfont.svg#fontawesomeregular');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: 'DroidSans';
+  src: url('../fonts/DroidSans.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**************************************************************************************************************************/
+                                                /*Sur tout le document*/
+/**************************************************************************************************************************/
+
+body
+{
+    font-family: 'DroidSans','FontAwesome';
+}
+
+a:link
+{
+    text-decoration:none
+}
+
+/**************************************************************************************************************************/
+                                                /**Section 1 : MENU**/
+/**************************************************************************************************************************/
+
+#section1
+{
+    position: fixed;
+    background-color: #FFF;
+    z-index: 2;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	min-height: 90px;
+	width:100%;
+    margin-top:-40px;
+	padding-top: 20px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1em;
+    color:#000;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #000;
+    border-top: 3px solid #699FD5;
+    border-left-width: 20px;
+}
+
+div#logo
+{
+    margin-left: 120px;
+}
+
+div#menu
+{
+    text-align : right ;
+    margin-right: 120px;
+}
+
+/**************************************************************************************************************************/
+                                                /**Section 2 : IMAGE**/
+/**************************************************************************************************************************/
+
+.background
+{
+    background-image: url(../images/slider/bg1.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0 90px;
+    min-height: 500px;
+}
+
+.bleu
+{
+    color: #699FD5;
+    font-size: 30px
+  }
+
+.blanc
+{
+    color:#FFF;
+    font-size: 30px
+}
+
+#titre
+{
+    top: 200px;
+    left: 160px;
+    font-weight: bold;
+    position: relative;
+    font-size: 30px;
+    line-height: 23px;
+}
+
+.slogan
+{
+    top: 200px;
+    left: 160px;
+    font-weight: bold;
+    position: relative;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.btn-bleu1 
+{
+    background-color: #699FD5;
+    border-color:  #699FD5;
+    color: #FFF;
+    width: 300px;
+    height: 30px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+    border-radius: 2px;
+}
+
+.bouton
+{
+    font-weight: bold;
+    position: relative;
+    top: 215px;
+    left: 160px;
+}
+
+.flechedroite
+{
+    right: 9px;
+    /*top: 320px;*/
+    top: 50%;
+    position: absolute;
+    color: #FFF;
+    z-index: 2;
+}
+
+.flechegauche
+{
+    left: 8px;	
+    /*top: 320px;*/
+    top: 50%;
+    position: absolute;
+    color: #FFF;
+    z-index: 2;
+}
+
+.demicerclegauche
+{
+    height:47px;
+    width:25px;
+    border-radius:0 40px 40px 0;
+    background-color: rgba(0,0,0,0.28);
+    left: 8px;	
+    /*top: 305px;*/
+    top: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+.demicercledroit
+{
+    height:47px;
+    width:25px;
+    border-radius:40px 0 0 40px;
+    background-color: rgba(0,0,0,0.28);
+    right: 9px;
+    /*top: 305px;*/
+    top: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+#degrade
+{
+    background-image: linear-gradient(#FFF,#D4D4D4);
+    width: 100%;
+    height: 20px;
+    margin-top: 20px;
+    z-index: 1;
+    position: absolute;
+}
+
+/**************************************************************************************************************************/
+                                                    /**Section 3 : SERVICES**/
+/**************************************************************************************************************************/
+
+.traits
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.borduregrise
+{
+    border-bottom: 1px solid #E4E4E4;
+    width: 70px;
+    margin-bottom: 5px;
+}
+
+.rondbleu
+{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #6AA0D7;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#section4
+{
+    text-align: center;
+    padding-top: 100px;
+}
+
+#services
+{
+    font-size: 30px;
+}
+
+.image
+{
+    vertical-align: middle;
+}
+
+.image2
+{
+    width: 70px;
+}
+
+.height
+{
+    line-height: 30px;
+}
+
+/**************************************************************************************************************************/
+                                            /**Section 5 : DESSIN DE L'ECRAN**/
+/**************************************************************************************************************************/
+
+#conteneurservices
+{
+    display: flex;
+}
+
+.elementservices:nth-child(1)
+{
+    margin-left: 20px;
+    width: 500px;
+}
+
+/**************************************************************************************************************************/
+                                            /**Section 6 : PARTIE DE DROITE**/
+/**************************************************************************************************************************/
+
+.elementservices:nth-child(2)
+{
+    margin-right: 40px;
+}
+
+.conteneurconseil
+{
+    display: flex;
+}
+
+.elementconseil:nth-child(1)
+{
+    width: 50px;
+}
+
+.elementconseil:nth-child(2)
+{
+    width: 800px;
+    margin-left: 20px;
+}
+
+.fa-line-chart
+{
+    color: #6AA0D7;
+    margin-left: 6px;
+    margin-top: 25px;
+}
+
+.fa-cubes
+{
+    color: #6AA0D7;
+    margin-left: 17px;
+    margin-top: 17px;
+}
+
+.fa-pie-chart
+{
+    color: #6AA0D7;
+    margin-left: 17px;
+    margin-top: 17px;
+}
+
+.rond
+{
+    width:50%;
+}
+
+.rond:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height:50px;
+    border: 1px solid #E4E4E4;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+}
+
+.rond div {
+    float:left;
+    width:50px;
+    line-height:1em;
+    margin-top:-0.5em;
+    text-align:center;
+    color:white;
+}
+
+.fa-circle
+{
+    color: #6AA0D7;
+    font-size: 10px;
+    margin-left: 19px;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.image4
+{
+    float: left;
+    padding-right: 10px;
+}
+
+/**************************************************************************************************************************/
+                                                /**Section 7 : EN-TETE PROJETS**/
+/**************************************************************************************************************************/
+
+#section7
+{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#projets
+{
+    font-size: 30px;
+}
+
+/**************************************************************************************************************************/
+                                            /**Section 8 : MENU ONGLETS PROJET**/
+/**************************************************************************************************************************/
+
+#menu1
+{
+    display: flex;
+    padding-bottom : 25px;
+    padding-top: 20px;
+    margin-top: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.bouton1
+{
+    background-color: #E5E5E5;
+    height: 30px;
+    width: 100px;
+    color: #000;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    font-size: 11px;
+    padding-top: 12px;
+}
+
+.bouton1:hover
+{
+    background-color: #5CADD3;
+    color: #FFF;
+    position: relative;
+    padding-top: 5px;
+    height: 35px;
+}
+
+.bouton1:hover .borderbottom
+{
+    border-bottom: 4px solid #468CAD;
+    margin-top: 7px;
+    z-index: 2;
+    position: absolute;
+    width: 100px;
+    vertical-align: middle;
+    padding-bottom: 12px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.bouton1:hover .trianglebleu
+{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #468CAD transparent transparent transparent;
+    margin-left: 40px;
+    margin-top: 12px;
+    z-index: 1;
+    position: absolute;
+}
+
+.flechebouton
+{
+    position:absolute; 
+    top: 36px; 
+    left:0px;
+    display: none;
+    width: 81px;
+}
+
+.bouton1:hover .flechebouton
+{
+    display: block;
+}
+
+/**************************************************************************************************************************/
+                                            /**Section 9 : IMAGES DES PROJETS**/
+/**************************************************************************************************************************/
+
+#section9
+{
+    display:flex;
+	flex-wrap: wrap;
+}
+
+#conteneur1
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageportfolio
+{
+    width: 300px;
+    height: auto;
+}
+
+.element
+{
+    height: 63px;
+    width: 300px;
+}
+
+.element:nth-child(1)
+{
+    opacity: 0;
+}
+
+.element:nth-child(2)
+{
+    color:rgba(0,0,0,0);
+}
+
+.element:nth-child(3)
+{
+    color:rgba(0,0,0,0);
+    margin-top: -125px;
+    width: 300px;
+}
+
+.survol:hover .element:nth-child(3)
+{
+    background-color: rgba(0,0,0,0.5);
+    color:#FFF;
+    opacity: 1;
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 20px;
+    max-width: 290px;
+    max-height: 53px;
+}
+
+.survol:hover .port
+{
+    position:relative;
+    color: #FFF;
+    top: -55px;
+    left: 10px;
+}
+
+.port
+{
+    top: -55px;
+    color:rgba(0,0,0,0);
+}
+
+.ruban
+{
+    position:absolute; 
+    top:-31px; 
+    left:240px;
+    display: none;
+}
+
+.survol:hover .ruban
+{
+    display: block;
+}
+
+#conteneur2
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#conteneur3
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#conteneur4
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#conteneur5
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#conteneur6
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#conteneur7
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#conteneur8
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**************************************************************************************************************************/
+                                                /**Section 10 : CONTACT**/
+/**************************************************************************************************************************/
+
+#hauteville
+{
+    background-image:url(../images/paris.PNG);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: #FFF;
+    margin-top: 20px;
+    min-height: 500px;
+}
+
+.table1
+{
+    background-color: rgba(255,255,255,0.8);
+    margin-left: 838px;
+    width: 325px;
+    height: 430px;
+    }
+
+.titre
+{
+    margin-left: 20px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+.nom
+{
+    margin-left: 20px;
+    line-height: 10px;
+    font-weight: bold;
+}
+
+.adresse
+{
+    margin-left: 20px;
+    line-height: 5px;
+}
+
+#name
+{
+    margin-left: 20px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+#email
+{
+    margin-left: 20px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+#sujet
+{
+    margin-left: 20px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+#message
+{
+    margin-left: 20px;
+    width: 250px;
+    height: 100px;
+    padding-left: 10px;
+}
+
+#btn-bleu2 
+{
+    margin-left: 20px;
+    background-color: #5CADD3;
+    border-color:  #5CADD3;
+    color: #FFF;
+    opacity: 1.0;
+    height: 30px;
+}
+
+                                                /****media 1200****/
+
+@media all and (max-width:1200px)
+{
+
+/**************************************************************************************************************************/
+                                                /**Section 2 : IMAGE**/
+/**************************************************************************************************************************/
+
+#titre
+{ 
+    left: 100px;
+    font-size: 25px;
+}
+
+.slogan
+{
+    left: 100px;
+}
+    
+.bouton
+{
+    left: 100px;
+}
+ 
+/**************************************************************************************************************************/
+                                    /**Section 3 : BORDURE INTERIEURE GRISE BASSE**/
+/**************************************************************************************************************************/
+
+#section3
+{
+    margin-top: -10px;
+}    
+
+/**************************************************************************************************************************/
+                                                    /**Section 4 : SERVICES**/
+/**************************************************************************************************************************/
+
+#section4
+{
+    padding-top: 50px; 
+}        
+
+/**************************************************************************************************************************/
+                                                /**Section 10 : CONTACT**/
+/**************************************************************************************************************************/
+
+#hauteville
+{
+    min-height: 414px;
+}    
+    
+.table1
+{
+    margin-left: 600px;
+    width: 270px;
+    height: 325px;
+    border-collapse : collapse; 
+    border-spacing : 2px;
+    display: inherit;
+}
+
+.titre
+{
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 10px;
+    padding-top: 10px;
+}
+
+.nom
+{
+    font-size: 15px;
+    margin-left: 20px;
+    line-height: 10px;
+    font-weight: bold;
+}
+
+.adresse
+{
+    font-size: 15px;
+    margin-left: 20px;
+    line-height: 10px;
+}
+
+#name
+{
+    margin-left: 20px;
+    width: 220px;
+    padding-left: 10px;
+    height: 10px;
+    padding-top: 10px;
+}
+
+#email
+{
+    margin-left: 20px;
+    width: 220px;
+    padding-left: 10px;
+    line-height: 10px;
+}
+
+#sujet
+{
+    margin-left: 20px;
+    width: 220px;
+    padding-left: 10px;
+    line-height: 10px;
+}
+
+#message
+{
+    margin-left: 20px;
+    width: 220px;
+    height: 100px;
+    padding-left: 10px;
+}
+
+#btn-bleu2 
+{
+    margin-left: 20px;
+    background-color: #5CADD3;
+    border-color:  #5CADD3;
+    color: #FFF;
+    opacity: 1.0;
+    height: 30px;
+    line-height: 5px;
+}
+    
+.nobr
+{
+    display: none;
+}
+    
+    
+}
+
+                                                /****media 992****/
+
+@media all and (max-width:992px)
+{
+
+/**************************************************************************************************************************/
+                                                /**Section 1 : MENU**/
+/**************************************************************************************************************************/    
+    
+div#logo
+{
+    margin-left: auto;
+    margin-right: auto;
+}    
+    
+/**************************************************************************************************************************/
+                                                /**Section 2 : IMAGE**/
+/**************************************************************************************************************************/    
+    
+#titre
+{
+    font-size: 20px;
+    top:150px;
+}
+
+.bleu
+{
+    font-size: 20px;
+}
+    
+.blanc
+{
+    font-size: 20px;
+}
+    
+.slogan
+{
+    width: 40%;
+    top: 160px;
+    font-size: 13px;
+}
+    
+.bouton
+{
+    top: 170px;
+}
+    
+/**************************************************************************************************************************/
+                                    /**Section 3 : BORDURE INTERIEURE GRISE BASSE**/
+/**************************************************************************************************************************/
+
+#section3
+{
+    margin-top: -60px;
+}        
+
+/**************************************************************************************************************************/
+                                                    /**Section 4 : SERVICES**/
+/**************************************************************************************************************************/
+
+#section4
+{
+    padding-top: 10px; 
+}            
+
+/**************************************************************************************************************************/
+                                            /**Section 5 : DESSIN DE L'ECRAN**/
+/**************************************************************************************************************************/
+    
+#conteneurservices
+    {
+        flex-direction: column;
+    }
+    
+/**************************************************************************************************************************/
+                                                /**Section 10 : CONTACT**/
+/**************************************************************************************************************************/
+
+#hauteville
+{
+    min-height: 315px;
+}        
+    
+.table1
+{
+    margin-left: 460px;
+    width: 250px;
+    height: 250px;
+    border-collapse : collapse; 
+    border-spacing : 2px;
+    }
+
+.titre
+{
+    font-size: 15px;
+    margin-left: 20px;
+    line-height: 10px;
+    padding-top: 10px;
+}
+
+.nom
+{
+    font-size: 10x;
+    margin-left: 20px;
+    line-height: 10px;
+    font-weight: bold;
+}
+
+.adresse
+{
+    font-size: 10px;
+    margin-left: 20px;
+    line-height: 10px;
+}
+
+#name
+{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 200px;
+    /*height: 2px;*/
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#email
+{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 200px;
+    padding-left: 10px;
+    line-height: 10px;
+}
+
+#sujet
+{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 200px;
+    padding-left: 10px;
+    line-height: 10px;
+}
+
+#message
+{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+#btn-bleu2 
+{
+    font-size: 10px;
+    margin-left: 20px;
+    background-color: #5CADD3;
+    border-color:  #5CADD3;
+    color: #FFF;
+    opacity: 1.0;
+    height: 20px;
+    line-height: 5px;
+}
+    
+}
+
+                                                /****media 768****/
+
+@media all and (max-width:768px)
+{
+/**************************************************************************************************************************/
+                                                /**Section 1 : MENU**/
+/**************************************************************************************************************************/
+    
+div#logo
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+div#menu
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+    
+/**************************************************************************************************************************/
+                                                /**Section 2 : IMAGE**/
+/**************************************************************************************************************************/
+
+.bleu
+    {
+        font-size: 14px;
+    }
+    
+.blanc
+    {
+        font-size: 14px;
+    }
+    
+#titre
+{ 
+    top: 100px;
+    left: 20px;
+    font-size: 4px;
+    line-height: inherit;
+}
+
+.slogan
+{
+    top: 90px;
+    left: 30px;
+    font-size: 10px;
+    width: 50%;
+}
+    
+.bouton
+{
+    top: 90px;
+    left: 30px;
+} 
+    
+.btn-bleu1 
+{
+    width: 80px;
+    height: 20px;
+}
+    
+.font-btn
+{
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.flechedroite
+{
+    /*top: 174px;
+}
+
+.flechegauche
+{	
+    top: 174px;*/
+}
+
+.demicerclegauche
+{
+    height:47px;
+    width:25px;
+    border-radius:0 40px 40px 0;
+    /*top: 157.5px;*/
+}
+
+.demicercledroit
+{
+    height:47px;
+    width:25px;
+    border-radius:40px 0 0 40px;
+    /*top: 157.5px;*/
+}    
+
+/**************************************************************************************************************************/
+                                    /**Section 3 : BORDURE INTERIEURE GRISE BASSE**/
+/**************************************************************************************************************************/
+
+#section3
+{
+    margin-top: -150px;
+}            
+
+/**************************************************************************************************************************/
+                                                    /**Section 4 : SERVICES**/
+/**************************************************************************************************************************/
+
+#section4
+{
+    margin-top: -100px; 
+}                
+
+#services
+{
+    font-size: 20px;
+}
+    
+.height
+{
+    font-size: 15px;
+}
+    
+/**************************************************************************************************************************/
+                                            /**Section 5 : DESSIN DE L'ECRAN**/
+/**************************************************************************************************************************/
+
+.elementservices:nth-child(1)
+{
+    width: 350px;
+}        
+    
+/**************************************************************************************************************************/
+                                            /**Section 6 : PARTIE DE DROITE**/
+/**************************************************************************************************************************/
+
+.tech
+{
+    font-size: 20px;
+}
+    
+.para    
+{
+    font-size: 15px;
+}
+    
+/**************************************************************************************************************************/
+                                                /**Section 7 : EN-TETE PROJETS**/
+/**************************************************************************************************************************/
+    
+#projets    
+{
+    font-size: 20px;
+}
+    
+/**************************************************************************************************************************/
+                                                /**Section 8 : MENU ONGLETS PROJET**/
+/**************************************************************************************************************************/
+    
+.bouton1
+{
+    width: 80px;
+}
+    
+.bouton1:hover .borderbottom
+{
+    width: 80px;
+}
+    
+.bouton1:hover .trianglebleu
+{
+    margin-left: 30px;
+}
+    
+/**************************************************************************************************************************/
+                                                /**Section 10 : CONTACT**/
+/**************************************************************************************************************************/
+
+#hauteville
+{
+    /*min-height: 134px;*/
+    background-size: cover;
+}            
+    
+.table1
+{
+    margin-left: 30px;
+    width: 250px;
+    height: 210px;
+    border-collapse : collapse; 
+    border-spacing : 2px;
+}
+
+.titre
+{
+    font-size: 15px;
+    margin-left: 20px;
+    line-height: 10px;
+    padding-top: 10px;
+}
+
+.nom
+{
+    font-size: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.adresse
+{
+    font-size: 10px;
+    margin-left: 20px;
+    line-height: 10px;
+}
+
+#name
+{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 200px;
+    height: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#email
+{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 200px;
+    padding-left: 10px;
+    line-height: 10px;
+}
+
+#sujet
+{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 200px;
+    padding-left: 10px;
+    line-height: 10px;
+}
+
+#message
+{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 200px;
+    height: 25px;
+    padding-left: 10px;
+}
+
+#btn-bleu2 
+{
+    font-size: 10px;
+    margin-left: 20px;
+    background-color: #5CADD3;
+    border-color:  #5CADD3;
+    color: #FFF;
+    opacity: 1.0;
+    height: 20px;
+    line-height: 5px;
+}
+    
+}
+
+/********************************************POUR SAFARI*******************************************************/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) 
+
+{
+
+    /**************************************************************************************************************************/
+                                                /*Sur tout le document*/
+/**************************************************************************************************************************/
+
+body
+{
+    font-family: 'DroidSans','FontAwesome';
+}
+
+a:link
+{
+    text-decoration:none
+}
+
+/**************************************************************************************************************************/
+                                                /**Section 1 : MENU**/
+/**************************************************************************************************************************/
+
+#section1
+{
+    position: fixed;
+    background-color: #FFF;
+    z-index: 2;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	min-height: 90px;
+	width:100%;
+    margin-top:-40px;
+	padding-top: 20px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1em;
+    color:#000;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #000;
+    border-top: 3px solid #699FD5;
+    border-left-width: 20px;
+}
+
+div#logo
+{
+    margin-left: 120px;
+}
+
+div#menu
+{
+    text-align : right ;
+    margin-right: 120px;
+}
+
+/**************************************************************************************************************************/
+                                                /**Section 2 : IMAGE**/
+/**************************************************************************************************************************/
+
+.background
+{
+    background-image: url(../images/slider/bg1.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0 90px;
+    min-height: 500px;
+}
+
+.bleu
+{
+    color: #699FD5;
+    font-size: 30px
+  }
+
+.blanc
+{
+    color:#FFF;
+    font-size: 30px
+}
+
+#titre
+{
+    top: 200px;
+    left: 160px;
+    font-weight: bold;
+    position: relative;
+    font-size: 30px;
+    line-height: 23px;
+}
+
+.slogan
+{
+    top: 200px;
+    left: 160px;
+    font-weight: bold;
+    position: relative;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.btn-bleu1 
+{
+    background-color: #699FD5;
+    border-color:  #699FD5;
+    color: #FFF;
+    width: 300px;
+    height: 30px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+    border-radius: 2px;
+}
+
+.bouton
+{
+    font-weight: bold;
+    position: relative;
+    top: 215px;
+    left: 160px;
+}
+
+.flechedroite
+{
+    right: 9px;
+    /*top: 320px;*/
+    top: 50%;
+    position: absolute;
+    color: #FFF;
+    z-index: 2;
+}
+
+.flechegauche
+{
+    left: 8px;	
+    /*top: 320px;*/
+    top: 50%;
+    position: absolute;
+    color: #FFF;
+    z-index: 2;
+}
+
+.demicerclegauche
+{
+    height:47px;
+    width:25px;
+    border-radius:0 40px 40px 0;
+    background-color: rgba(0,0,0,0.28);
+    left: 8px;	
+    /*top: 305px;*/
+    top: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+.demicercledroit
+{
+    height:47px;
+    width:25px;
+    border-radius:40px 0 0 40px;
+    background-color: rgba(0,0,0,0.28);
+    right: 9px;
+    /*top: 305px;*/
+    top: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+#degrade
+{
+    background-image: linear-gradient(#FFF,#D4D4D4);
+    width: 100%;
+    height: 20px;
+    margin-top: 20px;
+    z-index: 1;
+    position: absolute;
+}
+
+/**************************************************************************************************************************/
+                                                    /**Section 3 : SERVICES**/
+/**************************************************************************************************************************/
+
+.traits
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.borduregrise
+{
+    border-bottom: 1px solid #E4E4E4;
+    width: 70px;
+    margin-bottom: 5px;
+}
+
+.rondbleu
+{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #6AA0D7;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#section4
+{
+    text-align: center;
+    padding-top: 100px;
+}
+
+#services
+{
+    font-size: 30px;
+}
+
+.image
+{
+    vertical-align: middle;
+}
+
+.image2
+{
+    width: 70px;
+}
+
+.height
+{
+    line-height: 30px;
+}
+
+/**************************************************************************************************************************/
+                                            /**Section 5 : DESSIN DE L'ECRAN**/
+/**************************************************************************************************************************/
+
+#conteneurservices
+{
+    display: flex;
+}
+
+.elementservices:nth-child(1)
+{
+    margin-left: 20px;
+    width: 500px;
+}
+
+/**************************************************************************************************************************/
+                                            /**Section 6 : PARTIE DE DROITE**/
+/**************************************************************************************************************************/
+
+.elementservices:nth-child(2)
+{
+    margin-right: 40px;
+}
+
+.conteneurconseil
+{
+    display: flex;
+}
+
+.elementconseil:nth-child(1)
+{
+    width: 50px;
+}
+
+.elementconseil:nth-child(2)
+{
+    width: 800px;
+    margin-left: 20px;
+}
+
+.fa-line-chart
+{
+    color: #6AA0D7;
+    margin-left: 6px;
+    margin-top: 25px;
+}
+
+.fa-cubes
+{
+    color: #6AA0D7;
+    margin-left: 17px;
+    margin-top: 17px;
+}
+
+.fa-pie-chart
+{
+    color: #6AA0D7;
+    margin-left: 17px;
+    margin-top: 17px;
+}
+
+.rond
+{
+    width:50%;
+}
+
+.rond:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height:50px;
+    border: 1px solid #E4E4E4;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+}
+
+.rond div {
+    float:left;
+    width:50px;
+    line-height:1em;
+    margin-top:-0.5em;
+    text-align:center;
+    color:white;
+}
+
+.fa-circle
+{
+    color: #6AA0D7;
+    font-size: 10px;
+    margin-left: 19px;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.image4
+{
+    float: left;
+    padding-right: 10px;
+}
+
+/**************************************************************************************************************************/
+                                                /**Section 7 : EN-TETE PROJETS**/
+/**************************************************************************************************************************/
+
+#section7
+{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#projets
+{
+    font-size: 30px;
+}
+
+/**************************************************************************************************************************/
+                                            /**Section 8 : MENU ONGLETS PROJET**/
+/**************************************************************************************************************************/
+
+#menu1
+{
+    display: flex;
+    padding-bottom : 25px;
+    padding-top: 20px;
+    margin-top: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.bouton1
+{
+    background-color: #E5E5E5;
+    height: 30px;
+    width: 100px;
+    color: #000;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    font-size: 11px;
+    padding-top: 12px;
+}
+
+.bouton1:hover
+{
+    background-color: #5CADD3;
+    color: #FFF;
+    position: relative;
+    padding-top: 5px;
+    height: 35px;
+}
+
+.bouton1:hover .borderbottom
+{
+    border-bottom: 4px solid #468CAD;
+    margin-top: 7px;
+    z-index: 2;
+    position: absolute;
+    width: 100px;
+    vertical-align: middle;
+    padding-bottom: 12px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.bouton1:hover .trianglebleu
+{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #468CAD transparent transparent transparent;
+    margin-left: 40px;
+    margin-top: 12px;
+    z-index: 1;
+    position: absolute;
+}
+
+.flechebouton
+{
+    position:absolute; 
+    top: 36px; 
+    left:0px;
+    display: none;
+    width: 81px;
+}
+
+.bouton1:hover .flechebouton
+{
+    display: block;
+}
+
+/**************************************************************************************************************************/
+                                            /**Section 9 : IMAGES DES PROJETS**/
+/**************************************************************************************************************************/
+
+#section9
+{
+    display:flex;
+	flex-wrap: wrap;
+}
+
+#conteneur1
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageportfolio
+{
+    width: 300px;
+    height: auto;
+}
+
+.element
+{
+    height: 63px;
+    width: 300px;
+}
+
+.element:nth-child(1)
+{
+    opacity: 0;
+}
+
+.element:nth-child(2)
+{
+    color:rgba(0,0,0,0);
+}
+
+.element:nth-child(3)
+{
+    color:rgba(0,0,0,0);
+    margin-top: -125px;
+    width: 300px;
+}
+
+.survol:hover .element:nth-child(3)
+{
+    background-color: rgba(0,0,0,0.5);
+    color:#FFF;
+    opacity: 1;
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 20px;
+    max-width: 290px;
+    max-height: 53px;
+}
+
+.survol:hover .port
+{
+    position:relative;
+    color: #FFF;
+    top: -55px;
+    left: 10px;
+}
+
+.port
+{
+    top: -55px;
+    color:rgba(0,0,0,0);
+}
+
+.ruban
+{
+    position:absolute; 
+    top:-31px; 
+    left:240px;
+    display: none;
+}
+
+.survol:hover .ruban
+{
+    display: block;
+}
+
+#conteneur2
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#conteneur3
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#conteneur4
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#conteneur5
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#conteneur6
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#conteneur7
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#conteneur8
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**************************************************************************************************************************/
+                                                /**Section 10 : CONTACT**/
+/**************************************************************************************************************************/
+
+#hauteville
+{
+    background-image:url(../images/paris.PNG);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: #FFF;
+    margin-top: 20px;
+    min-height: 500px;
+}
+
+.table1
+{
+    background-color: rgba(255,255,255,0.8);
+    margin-left: 838px;
+    width: 325px;
+    height: 430px;
+    }
+
+.titre
+{
+    margin-left: 20px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+.nom
+{
+    margin-left: 20px;
+    line-height: 10px;
+    font-weight: bold;
+}
+
+.adresse
+{
+    margin-left: 20px;
+    line-height: 5px;
+}
+
+#name
+{
+    margin-left: 20px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+#email
+{
+    margin-left: 20px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+#sujet
+{
+    margin-left: 20px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+#message
+{
+    margin-left: 20px;
+    width: 250px;
+    height: 100px;
+    padding-left: 10px;
+}
+
+#btn-bleu2 
+{
+    margin-left: 20px;
+    background-color: #5CADD3;
+    border-color:  #5CADD3;
+    color: #FFF;
+    opacity: 1.0;
+    height: 30px;
+}
+
+                                                /****media 1200****/
+
+@media all and (max-width:1200px)
+{
+
+/**************************************************************************************************************************/
+                                                /**Section 2 : IMAGE**/
+/**************************************************************************************************************************/
+
+#titre
+{ 
+    left: 100px;
+    font-size: 25px;
+}
+
+.slogan
+{
+    left: 100px;
+}
+    
+.bouton
+{
+    left: 100px;
+}
+ 
+/**************************************************************************************************************************/
+                                    /**Section 3 : BORDURE INTERIEURE GRISE BASSE**/
+/**************************************************************************************************************************/
+
+#section3
+{
+    margin-top: -10px;
+}    
+
+/**************************************************************************************************************************/
+                                                    /**Section 4 : SERVICES**/
+/**************************************************************************************************************************/
+
+#section4
+{
+    padding-top: 50px; 
+}        
+
+/**************************************************************************************************************************/
+                                                /**Section 10 : CONTACT**/
+/**************************************************************************************************************************/
+
+#hauteville
+{
+    min-height: 414px;
+}    
+    
+.table1
+{
+    margin-left: 600px;
+    width: 270px;
+    height: 325px;
+    border-collapse : collapse; 
+    border-spacing : 2px;
+    display: inherit;
+}
+
+.titre
+{
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 10px;
+    padding-top: 10px;
+}
+
+.nom
+{
+    font-size: 15px;
+    margin-left: 20px;
+    line-height: 10px;
+    font-weight: bold;
+}
+
+.adresse
+{
+    font-size: 15px;
+    margin-left: 20px;
+    line-height: 10px;
+}
+
+#name
+{
+    margin-left: 20px;
+    width: 220px;
+    padding-left: 10px;
+    height: 10px;
+    padding-top: 10px;
+}
+
+#email
+{
+    margin-left: 20px;
+    width: 220px;
+    padding-left: 10px;
+    line-height: 10px;
+}
+
+#sujet
+{
+    margin-left: 20px;
+    width: 220px;
+    padding-left: 10px;
+    line-height: 10px;
+}
+
+#message
+{
+    margin-left: 20px;
+    width: 220px;
+    height: 100px;
+    padding-left: 10px;
+}
+
+#btn-bleu2 
+{
+    margin-left: 20px;
+    background-color: #5CADD3;
+    border-color:  #5CADD3;
+    color: #FFF;
+    opacity: 1.0;
+    height: 30px;
+    line-height: 5px;
+}
+    
+.nobr
+{
+    display: none;
+}
+    
+    
+}
+
+                                                /****media 992****/
+
+@media all and (max-width:992px)
+{
+
+/**************************************************************************************************************************/
+                                                /**Section 1 : MENU**/
+/**************************************************************************************************************************/    
+    
+div#logo
+{
+    margin-left: auto;
+    margin-right: auto;
+}    
+    
+/**************************************************************************************************************************/
+                                                /**Section 2 : IMAGE**/
+/**************************************************************************************************************************/    
+    
+#titre
+{
+    font-size: 20px;
+    top:150px;
+}
+
+.bleu
+{
+    font-size: 20px;
+}
+    
+.blanc
+{
+    font-size: 20px;
+}
+    
+.slogan
+{
+    width: 40%;
+    top: 160px;
+    font-size: 13px;
+}
+    
+.bouton
+{
+    top: 170px;
+}
+    
+/**************************************************************************************************************************/
+                                    /**Section 3 : BORDURE INTERIEURE GRISE BASSE**/
+/**************************************************************************************************************************/
+
+#section3
+{
+    margin-top: -60px;
+}        
+
+/**************************************************************************************************************************/
+                                                    /**Section 4 : SERVICES**/
+/**************************************************************************************************************************/
+
+#section4
+{
+    padding-top: 10px; 
+}            
+
+/**************************************************************************************************************************/
+                                            /**Section 5 : DESSIN DE L'ECRAN**/
+/**************************************************************************************************************************/
+    
+#conteneurservices
+    {
+        flex-direction: column;
+    }
+    
+/**************************************************************************************************************************/
+                                                /**Section 10 : CONTACT**/
+/**************************************************************************************************************************/
+
+#hauteville
+{
+    min-height: 315px;
+}        
+    
+.table1
+{
+    margin-left: 460px;
+    width: 250px;
+    height: 250px;
+    border-collapse : collapse; 
+    border-spacing : 2px;
+    }
+
+.titre
+{
+    font-size: 15px;
+    margin-left: 20px;
+    line-height: 10px;
+    padding-top: 10px;
+}
+
+.nom
+{
+    font-size: 10x;
+    margin-left: 20px;
+    line-height: 10px;
+    font-weight: bold;
+}
+
+.adresse
+{
+    font-size: 10px;
+    margin-left: 20px;
+    line-height: 10px;
+}
+
+#name
+{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 200px;
+    /*height: 2px;*/
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#email
+{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 200px;
+    padding-left: 10px;
+    line-height: 10px;
+}
+
+#sujet
+{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 200px;
+    padding-left: 10px;
+    line-height: 10px;
+}
+
+#message
+{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+#btn-bleu2 
+{
+    font-size: 10px;
+    margin-left: 20px;
+    background-color: #5CADD3;
+    border-color:  #5CADD3;
+    color: #FFF;
+    opacity: 1.0;
+    height: 20px;
+    line-height: 5px;
+}
+    
+}
+
+                                                /****media 768****/
+
+@media all and (max-width:768px)
+{
+/**************************************************************************************************************************/
+                                                /**Section 1 : MENU**/
+/**************************************************************************************************************************/
+    
+div#logo
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+div#menu
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+    
+/**************************************************************************************************************************/
+                                                /**Section 2 : IMAGE**/
+/**************************************************************************************************************************/
+
+.bleu
+    {
+        font-size: 14px;
+    }
+    
+.blanc
+    {
+        font-size: 14px;
+    }
+    
+#titre
+{ 
+    top: 100px;
+    left: 20px;
+    font-size: 4px;
+    line-height: inherit;
+}
+
+.slogan
+{
+    top: 90px;
+    left: 30px;
+    font-size: 10px;
+    width: 50%;
+}
+    
+.bouton
+{
+    top: 90px;
+    left: 30px;
+} 
+    
+.btn-bleu1 
+{
+    width: 80px;
+    height: 20px;
+}
+    
+.font-btn
+{
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.flechedroite
+{
+    /*top: 174px;*/
+}
+
+.flechegauche
+{	
+    /*top: 174px;*/
+}
+
+.demicerclegauche
+{
+    height:47px;
+    width:25px;
+    border-radius:0 40px 40px 0;
+    /*top: 157.5px;*/
+}
+
+.demicercledroit
+{
+    height:47px;
+    width:25px;
+    border-radius:40px 0 0 40px;
+    /*top: 157.5px;*/
+}    
+
+/**************************************************************************************************************************/
+                                    /**Section 3 : BORDURE INTERIEURE GRISE BASSE**/
+/**************************************************************************************************************************/
+
+#section3
+{
+    margin-top: -150px;
+}            
+
+/**************************************************************************************************************************/
+                                                    /**Section 4 : SERVICES**/
+/**************************************************************************************************************************/
+
+#section4
+{
+    margin-top: -100px; 
+}                
+
+#services
+{
+    font-size: 20px;
+}
+    
+.height
+{
+    font-size: 15px;
+}
+    
+/**************************************************************************************************************************/
+                                            /**Section 5 : DESSIN DE L'ECRAN**/
+/**************************************************************************************************************************/
+
+.elementservices:nth-child(1)
+{
+    width: 350px;
+}        
+    
+/**************************************************************************************************************************/
+                                            /**Section 6 : PARTIE DE DROITE**/
+/**************************************************************************************************************************/
+
+.tech
+{
+    font-size: 20px;
+}
+    
+.para    
+{
+    font-size: 15px;
+}
+    
+/**************************************************************************************************************************/
+                                                /**Section 7 : EN-TETE PROJETS**/
+/**************************************************************************************************************************/
+    
+#projets    
+{
+    font-size: 20px;
+}
+    
+/**************************************************************************************************************************/
+                                                /**Section 8 : MENU ONGLETS PROJET**/
+/**************************************************************************************************************************/
+    
+.bouton1
+{
+    width: 80px;
+}
+    
+.bouton1:hover .borderbottom
+{
+    width: 80px;
+}
+    
+.bouton1:hover .trianglebleu
+{
+    margin-left: 30px;
+}
+    
+/**************************************************************************************************************************/
+                                                /**Section 10 : CONTACT**/
+/**************************************************************************************************************************/
+
+#hauteville
+{
+    /*min-height: 134px;*/
+    background-size: cover;
+}            
+    
+.table1
+{
+    margin-left: 30px;
+    width: 250px;
+    height: 210px;
+    border-collapse : collapse; 
+    border-spacing : 2px;
+}
+
+.titre
+{
+    font-size: 15px;
+    margin-left: 20px;
+    line-height: 10px;
+    padding-top: 10px;
+}
+
+.nom
+{
+    font-size: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.adresse
+{
+    font-size: 10px;
+    margin-left: 20px;
+    line-height: 10px;
+}
+
+#name
+{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 200px;
+    height: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#email
+{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 200px;
+    padding-left: 10px;
+    line-height: 10px;
+}
+
+#sujet
+{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 200px;
+    padding-left: 10px;
+    line-height: 10px;
+}
+
+#message
+{
+    font-size: 10px;
+    margin-left: 20px;
+    width: 200px;
+    height: 25px;
+    padding-left: 10px;
+}
+
+#btn-bleu2 
+{
+    font-size: 10px;
+    margin-left: 20px;
+    background-color: #5CADD3;
+    border-color:  #5CADD3;
+    color: #FFF;
+    opacity: 1.0;
+    height: 20px;
+    line-height: 5px;
+}
+    
+}
+}
+

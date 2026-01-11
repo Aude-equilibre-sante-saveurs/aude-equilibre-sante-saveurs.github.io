@@ -1,0 +1,21 @@
+.circle-text {
+    width:50%;
+}
+.circle-text:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height:40px;
+    border: 1px solid black;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+}
+.circle-text div {
+    float:left;
+    width:40px;
+    line-height:1em;
+    margin-top:-0.5em;
+    text-align:center;
+    color:white;
+}

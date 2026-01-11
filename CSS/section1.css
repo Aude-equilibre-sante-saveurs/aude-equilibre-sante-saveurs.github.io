@@ -1,0 +1,66 @@
+@font-face 
+{
+  font-family: 'FontAwesome';
+  src: url('fontawesome-webfont.eot');
+  src: url('fontawesome-webfont.eot#iefix&'), 
+      url('fontawesome-webfont.woff2'), 
+      url('fontawesome-webfont.woff'), 
+      url('fontawesome-webfont.ttf'), 
+      url('fontawesome-webfont.svg#fontawesomeregular');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: 'DroidSans';
+  src: url('DroidSans.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**************************************************************************************************************************/
+                                                /**Section 1 : MENU**/
+/**************************************************************************************************************************/
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+    font-family: 'FontAwesome','DroidSans';
+}
+
+nav a{
+    font-size: 0.8em;
+    color:#000;
+    padding-top: 15px;
+    text-decoration: none;
+    font-family: 'FontAwesome','DroidSans';
+}
+
+nav a:hover
+{
+    color: #000;
+    border-top: 3px solid #699FD5;
+    border-left-width: 20px;
+}
+
+div#logo{
+    margin-left: 120px;
+    float: left;
+    position: absolute;
+    z-index: 3;
+}
+
+div#menu
+{
+    text-align : right ;
+    float: right;
+    margin-right: 120px;
+    font-family: 'FontAwesome','DroidSans';
+}

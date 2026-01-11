@@ -1,0 +1,327 @@
+@font-face 
+{
+  font-family: 'FontAwesome';
+  src: url('fontawesome-webfont.eot');
+  src: url('fontawesome-webfont.eot#iefix&'), 
+      url('fontawesome-webfont.woff2'), 
+      url('fontawesome-webfont.woff'), 
+      url('fontawesome-webfont.ttf'), 
+      url('fontawesome-webfont.svg#fontawesomeregular');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: 'DroidSans';
+  src: url('DroidSans.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**************************************************************************************************************************/
+                                                /**Section 2 : IMAGE**/
+/**************************************************************************************************************************/
+
+.background
+{
+    background-image: url(../images/slider/bg1.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 500px;
+}
+
+h1
+{
+    font-size: 30px;
+}
+
+.bleu
+{
+    color: #699FD5;
+  }
+
+.blanc
+{
+    color:#FFF;
+}
+
+.titre
+{
+    bottom: 380px;
+    left: 180px;
+    font-weight: bold;
+    font-family: 'FontAwesome','DroidSans';
+    position: relative;
+}
+
+.slogan
+{
+    bottom: 370px;
+    left: 180px;
+    font-weight: bold;
+    font-family: 'FontAwesome','DroidSans';
+    position: relative;
+    font-size: 10px;
+}
+
+.btn-bleu 
+{
+    background-color: #699FD5;
+    border-color:  #699FD5;
+    color: #FFF;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-family: 'FontAwesome','DroidSans';
+}
+
+.bouton
+{
+    font-weight: bold;
+    font-family: 'FontAwesome','DroidSans';
+    position: relative;
+    bottom: 350px;
+    left: 180px;
+}
+
+.flechedroite
+{
+    right: 10px;
+    top: 215px;
+    position: absolute;
+    color: #FFF;
+    z-index: 1;
+    border-radius:40px 0 0 40px;
+    height:47px;
+    width:25px;
+    background-color: rgba(0,0,0,0.28);
+}
+
+.flechegauche
+{
+    left: 8px;	
+    top: 215px;
+    position: absolute;
+    color: #FFF;
+    z-index: 1;
+    border-radius:0 40px 40px 0;
+    height:47px;
+    width:25px;
+    background-color: rgba(0,0,0,0.28);
+}
+/*
+.demicerclegauche
+{
+    height:47px;
+    width:25px;
+    border-radius:0 25px 25px 0;
+    background-color: #000;
+    bottom: 493px;
+    left: 0px;
+    position: relative;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.demicercledroit
+{
+    height:47px;
+    width:25px;
+    border-radius:25px 0 0 25px;
+    background-color: #000;
+    bottom: 553px;
+    left: 1307px;
+    position: relative;
+    opacity: 0.3;
+    z-index: 1;
+}
+*/
+@media all and (max-width:1200px)
+{
+    
+    h1
+    {
+        font-size: 20px;
+    }
+    
+    .titre
+    {
+        bottom: 400px;
+        left: 160px;
+    }
+    
+    .slogan
+    {
+        bottom: 390px;
+        left: 160px;
+        font-size: 7px;
+    }
+    
+    .btn-bleu 
+    {
+        width: 100px;
+        height: 20px;
+        padding-bottom: 2.5px;
+        font-size: 10px;
+    }
+    
+    .bouton
+    {
+        bottom: 360px;
+        left: 160px;
+    }
+    
+    .flechedroite
+    {
+        right: 9px;
+        top: 180px;
+        border-radius:25px 0 0 25px;
+        height:30px;
+        width:20px;
+        font-size: 12px
+    }
+
+    .flechegauche
+    {
+        left: 15px;	
+        top: 180px;
+        border-radius:0 25px 25px 0;
+        height:30px;
+        width:20px;
+        font-size: 12px
+    }
+    /*
+    .demicerclegauche
+    
+    {
+        height:25px;
+        width:12.5px;
+        border-radius:0 12.5px 12.5px 0;
+        bottom: 226.5px;
+        left: 0px;
+        
+    }
+
+    .demicercledroit
+    {
+        height:23.5px;
+        width:12.5px;
+        border-radius:12.5px 0 0 12.5px;
+        background-color: #000;
+        bottom: 226.5px;
+        left: 653.5px;
+        position: relative;
+        opacity: 0.3;
+        z-index: 1;
+}
+    */
+}
+
+@media all and (max-device-width: 992px)    
+{
+    
+    h1
+    {
+        font-size: 15px;
+    }
+    
+    .titre
+    {
+        bottom: 300px;
+        left: 160px;
+    }
+    
+    .slogan
+    {
+        bottom: 390px;
+        left: 160px;
+        font-size: 7px;
+    }
+    
+    .btn-bleu 
+    {
+        width: 120px;
+        height: 30px;
+        padding-bottom: 2.5px;
+    }
+    
+    .bouton
+    {
+        bottom: 360px;
+        left: 160px;
+    }
+    
+    .flechedroite
+    {
+        right: 11px;
+        top: 215px;
+        border-radius:25px 0 0 25px;
+        height:36px;
+        width:24px;
+    }
+
+    .flechegauche
+    {
+        left: 4px;	
+        top: 215px;
+        border-radius:25px 0 0 25px;
+        height:36px;
+        width:24px;
+    }
+@media all and (max-device-width: 992px)
+    background
+    {
+        min-height: 250px;
+    }
+    
+    h1
+    {
+        font-size: 20px;
+    }
+    
+    .titre
+    {
+        bottom: 400px;
+        left: 160px;
+    }
+    
+    .slogan
+    {
+        bottom: 390px;
+        left: 160px;
+        font-size: 7px;
+    }
+    
+    .btn-bleu 
+    {
+        width: 120px;
+        height: 30px;
+        padding-bottom: 2.5px;
+    }
+    
+    .bouton
+    {
+        bottom: 360px;
+        left: 160px;
+    }
+    
+    .flechedroite
+    {
+        right: 11px;
+        top: 215px;
+        border-radius:25px 0 0 25px;
+        height:36px;
+        width:24px;
+    }
+
+    .flechegauche
+    {
+        left: 4px;	
+        top: 215px;
+        border-radius:25px 0 0 25px;
+        height:36px;
+        width:24px;
+    }
+}

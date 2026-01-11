@@ -1,0 +1,140 @@
+/**************************************************************************************************************************/
+                                            /**Section 9 : IMAGES DES PROJETS**/
+/**************************************************************************************************************************/
+
+#section9
+{
+    display:flex;
+	flex-wrap: wrap;
+}
+
+#conteneur1
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/portfolio/01.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+    margin: 20px;
+}
+
+.element
+{
+    height: 63px;
+    width: 290px;
+}
+
+.element:nth-child(1)
+{
+    opacity: 0;
+}
+
+.element:nth-child(2)
+{
+    color:rgba(0,0,0,0)
+}
+
+.element:nth-child(3)
+{
+    color:rgba(0,0,0,0)
+}
+
+.element:nth-child(3):hover
+{
+    background-color: rgba(0,0,0,0.5);
+    color:#FFF;
+    opacity: 1;
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 20px;
+    max-width: 280px;
+    max-height: 53px;
+}
+
+.port:hover
+{
+    position:relative;
+}
+
+.ruban
+{
+    position:absolute; 
+    top:-25px; 
+    left:250px;
+    display: none;
+}
+
+.port:hover .ruban
+{
+    display: block;
+}
+
+#conteneur2
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/portfolio/02.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+    margin: 20px;
+}
+
+#conteneur3
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/portfolio/03.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+    margin: 20px;
+}
+
+#conteneur4
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/portfolio/04.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+    margin: 20px;
+}
+
+#conteneur5
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/portfolio/05.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+    margin: 20px;
+}
+
+#conteneur6
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/portfolio/06.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+    margin: 20px;
+}
+
+#conteneur7
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/portfolio/07.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+    margin: 20px;
+}
+
+#conteneur8
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/portfolio/08.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+    margin: 20px;
+}

@@ -1,0 +1,246 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fontawesome-webfont.eot');
+  src: url('fontawesome-webfont.eot#iefix&'), 
+      url('fontawesome-webfont.woff2'), 
+      url('fontawesome-webfont.woff'), 
+      url('fontawesome-webfont.ttf'), 
+      url('fontawesome-webfont.svg#fontawesomeregular');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DroidSans';
+  src: url('DroidSans.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+/***************************************************Section1***************************************************************/
+
+#section1{
+    text-align: center;
+    font-family: 'FontAwesome','DroidSans';
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'FontAwesome','DroidSans';
+}
+
+.image{
+    vertical-align: middle;
+}
+
+.image2{
+    width: 70px;
+}
+
+p{
+    font-family: 'FontAwesome','DroidSans'; 
+}
+
+.height{
+    line-height: 30px;
+}
+
+/*******************************************************Section2***********************************************************/
+
+#onglets
+{
+    font : bold 11px 'FontAwesome','DroidSans';
+    list-style-type : none;
+    padding-bottom : 24px; /* à modifier suivant la taille de la police ET de la hauteur de l'onglet dans #onglets li */
+    border-bottom : 1px solid #9EA0A1;
+    margin-left : 0;
+}
+
+#onglets li
+{
+    float: left;
+    height : 30px; /* à modifier suivant la taille de la police pour centrer le texte dans l'onglet */
+    background-color: #E5E5E5;
+    margin : 2px 2px 0 2px !important;  /* Pour les navigateurs autre que IE */
+    margin : 1px 2px 0 2px;  /* Pour IE  */
+    border-radius: 2px;
+}
+
+#onglets li.active
+{
+    border-bottom: 1px solid #E5E5E5;
+    background-color: #E5E5E5;
+}
+
+#onglets a
+{
+    display : block;
+    color : #666;
+    text-decoration : none;
+    padding : 4px;
+    text-align: center;
+}
+
+#onglets a:hover
+{
+    background : #5CADD3;
+    color: #FFF;
+    height: 20px;
+    border-radius: 2px;
+}
+
+#menu
+{
+    padding-bottom : 25px;
+}
+
+#onglets
+{
+    position : absolute;
+    border : 1px solid transparent;
+    padding : 0;
+    font : bold 11px 'FontAwesome','DroidSans';
+    list-style-type : none;
+    left : 50%;
+    margin-top : 0;
+    width : 430px;
+    margin-left : -150px; /* la moitié de width */
+
+}
+
+div{
+    font-family: 'FontAwesome','DroidSans';
+}
+
+.fleche1
+{
+    margin-left: 560px;
+    margin-top: 11px;
+    position: absolute;
+    color: #5CADD3;
+}
+
+.fleche2{
+    margin-left: 628px;
+    margin-top: 11px;
+    position: absolute;
+    color: #5CADD3;
+}
+
+.fleche3{
+    margin-left: 690px;
+    margin-top: 11px;
+    position: absolute;
+    color: #5CADD3;
+}
+
+.fleche4{
+    margin-left: 752px;
+    margin-top: 11px;
+    position: absolute;
+    color: #5CADD3;
+}
+
+
+.fleche1 a:hover
+{
+    margin-left: 558px;
+    margin-top: 11px;
+    position: absolute;
+    color: #5CADD3;
+}
+
+.img1:hover{
+    display : block; /*Très important, sinon les dimensions ne sont pas prises en compte*/
+    background-image: url(webagency_images/images/lunettes.PNG);
+    width: 270px;
+    height: auto;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 3;
+}
+
+/********************************************************Section 3***************************************************************************/
+
+#contenu{
+    background-repeat:no-repeat;
+    background-image:   url(webagency_images/images/portfolio/01.jpg);
+    width: 300px;
+    height:210px;
+    background-size: 280px;
+    margin-left: 45px;
+    position: absolute;
+}
+
+#contenu2{
+    background-repeat:no-repeat;
+    background-image:   url(webagency_images/images/portfolio/02.jpg);
+    width: 300px;
+    height:210px;
+    background-size: 280px;
+    margin-left: 360px;
+    position: absolute;
+}
+
+#contenu3{
+    background-repeat:no-repeat;
+    background-image:   url(webagency_images/images/portfolio/03.jpg);
+    width: 300px;
+    height:210px;
+    background-size: 280px;
+    margin-left: 675px;
+    position: absolute;
+}
+
+#contenu4{
+    background-repeat:no-repeat;
+    background-image:   url(webagency_images/images/portfolio/04.jpg);
+    width: 300px;
+    height:210px;
+    background-size: 280px;
+    margin-left: 990px;
+}
+
+#contenu5{
+    background-repeat:no-repeat;
+    background-image:   url(webagency_images/images/portfolio/05.jpg);
+    width: 300px;
+    height:300px;
+    background-size: 290px;
+    margin-left: 45px;
+    position: absolute;
+}
+
+#contenu6{
+    background-repeat:no-repeat;
+    background-image:   url(webagency_images/images/portfolio/06.jpg);
+    width: 300px;
+    height:300px;
+    background-size: 290px;
+    margin-left: 360px;
+    position: absolute;
+}
+
+#contenu7{
+    background-repeat:no-repeat;
+    background-image:   url(webagency_images/images/portfolio/07.jpg);
+    width: 300px;
+    height:300px;
+    background-size: 290px;
+    margin-left: 675px;
+    position: absolute;
+}
+
+#contenu8{
+    background-repeat:no-repeat;
+    background-image:   url(webagency_images/images/portfolio/08.jpg);
+    width: 300px;
+    height:300px;
+    background-size: 290px;
+    margin-left: 990px;
+    position: absolute;
+}

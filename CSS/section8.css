@@ -1,0 +1,137 @@
+/**************************************************************************************************************************/
+                                            /**Section 8 : MENU ONGLETS PROJET**/
+/**************************************************************************************************************************/
+
+/*#onglets
+{
+    font : bold 11px 'FontAwesome','DroidSans';
+    list-style-type : none;
+    padding-bottom : 24px; /* à modifier suivant la taille de la police ET de la hauteur de l'onglet dans #onglets li */
+    /*border-bottom : 1px solid #9EA0A1;
+    margin-left : 0;
+}
+
+#onglets li
+{
+    float: left;
+    height : 30px; /* à modifier suivant la taille de la police pour centrer le texte dans l'onglet */
+    /*background-color: #E5E5E5;
+    margin : 2px 2px 0 2px !important;  /* Pour les navigateurs autre que IE */
+    /*margin : 1px 2px 0 2px;  /* Pour IE  */
+    /*border-radius: 2px;
+}
+
+#onglets li.active
+{
+    border-bottom: 1px solid #E5E5E5;
+    background-color: #E5E5E5;
+}
+
+#onglets a
+{
+    display : block;
+    color : #666;
+    text-decoration : none;
+    padding : 4px;
+    text-align: center;
+}
+
+#onglets a:hover
+{
+    background : #5CADD3;
+    color: #FFF;
+    height: 20px;
+    border-radius: 2px;
+}*/
+
+#menu
+{
+    padding-top: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.bouton
+{
+    background-color: #E5E5E5;
+    height: 40px;
+    width: 120px;
+    color: #000;
+    border-radius: 5px;
+    border-color: #E5E5E5;
+    font-weight: bold;
+}
+
+.bouton:hover
+{
+    background-color: #5CADD3;
+    border-color: #5CADD3;
+    color: #FFF;
+}
+
+/*#onglets
+{
+    position : absolute;
+    border : 1px solid transparent;
+    padding : 0;
+    font : bold 11px 'FontAwesome','DroidSans';
+    list-style-type : none;
+    left : 50%;
+    margin-top : 0;
+    width : 430px;
+    margin-left : -150px; /* la moitié de width */
+
+/*}
+
+div{
+    font-family: 'FontAwesome','DroidSans';
+}*/
+
+.fleche1
+{
+    margin-left: 560px;
+    margin-top: 35px;
+    position: absolute;
+    color: #5CADD3;
+}
+
+.fleche2{
+    margin-left: 628px;
+    margin-top: 35px;
+    position: absolute;
+    color: #5CADD3;
+}
+
+.fleche3{
+    margin-left: 690px;
+    margin-top: 35px;
+    position: absolute;
+    color: #5CADD3;
+}
+
+.fleche4{
+    margin-left: 752px;
+    margin-top: 35px;
+    position: absolute;
+    color: #5CADD3;
+}
+
+
+
+.fleche1 a:hover
+{
+    margin-left: 558px;
+    margin-top: 11px;
+    position: absolute;
+    color: #5CADD3;
+}
+
+.img1:hover{
+    display : block; /*Très important, sinon les dimensions ne sont pas prises en compte*/
+    background-image: url(images/lunettes.PNG);
+    width: 270px;
+    height: auto;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 3;
+}

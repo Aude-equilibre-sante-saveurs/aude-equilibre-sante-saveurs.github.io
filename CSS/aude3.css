@@ -1,0 +1,368 @@
+/* -----------------------------------------------------------
+   POLICES
+----------------------------------------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot');
+  src: url('../fonts/fontawesome-webfont.eot#iefix&'),
+       url('../fonts/fontawesome-webfont.woff2'),
+       url('../fonts/fontawesome-webfont.woff'),
+       url('../fonts/fontawesome-webfont.ttf'),
+       url('../fonts/fontawesome-webfont.svg#fontawesomeregular');
+}
+
+@font-face {
+  font-family: 'DroidSans';
+  src: url('../fonts/DroidSans.ttf');
+}
+
+/* -----------------------------------------------------------
+   BASE
+----------------------------------------------------------- */
+body {
+  font-family: 'DroidSans','FontAwesome';
+  background-color: palegreen;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* -----------------------------------------------------------
+   MENU FIXE
+----------------------------------------------------------- */
+#section1 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: yellowgreen;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+
+#logo p {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #000;
+  font-size: 1em;
+}
+
+nav a:hover {
+  color: darkgreen;
+  border-top: 3px solid orange;
+}
+
+/* -----------------------------------------------------------
+   SECTION 2 : IMAGE D’ACCUEIL
+----------------------------------------------------------- */
+/* SECTION 2 : IMAGE + TEXTE À GAUCHE */
+.background {
+  background-image: url(../images/slider/bg6.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 450px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 80px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin-top: 90px;
+  overflow: hidden;
+}
+
+/* Bloc texte à gauche */
+#titre {
+  max-width: 500px;
+  color: greenyellow;
+  font-family: cursive;
+  text-align: left;
+}
+
+#titre h1 {
+  font-size: 28px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.slogan {
+  font-size: 18px;
+  color: greenyellow;
+  font-family: cursive;
+  margin-top: 20px;
+  text-align: left;
+  max-width: 500px;
+  margin-left: 0;
+}
+
+
+
+.flechedroite,
+.flechegauche {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  color: white;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.flechedroite {
+  right: 0;
+}
+
+.flechegauche {
+  left: 0;
+}
+
+.demicerclegauche,
+.demicercledroit {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 80px;
+  background-color: rgba(0,0,0,0.3);
+  z-index: 4;
+}
+
+.demicerclegauche {
+  left: 0;
+  border-radius: 0 40px 40px 0;
+}
+
+.demicercledroit {
+  right: 0;
+  border-radius: 40px 0 0 40px;
+}
+
+/* -----------------------------------------------------------
+   SECTIONS GÉNÉRALES
+----------------------------------------------------------- */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+}
+
+#section4 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#section5 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* -----------------------------------------------------------
+   SERVICES
+----------------------------------------------------------- */
+#conteneurservices {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.elementservices {
+  max-width: 800px;
+}
+
+.conteneurconseil {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.elementconseil:nth-child(1) {
+  width: 60px;
+}
+
+.elementconseil:nth-child(2) {
+  flex: 1;
+  text-align: left;
+}
+
+/* -----------------------------------------------------------
+   PLATS
+----------------------------------------------------------- */
+#section7 { 
+    margin-bottom: 0; 
+    padding-bottom: 0; 
+}
+
+#section9 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+    margin-top: 0; 
+    padding-top: 10px; /* ou 0 si tu veux coller complètement */
+}
+
+.imageportfolio {
+  width: 280px;
+  border-radius: 5px;
+}
+
+/* -----------------------------------------------------------
+   CONTACT
+----------------------------------------------------------- */
+.table1 {
+  background-color: rgba(255,255,255,0.85);
+  padding: 20px;
+  max-width: 350px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+/* -----------------------------------------------------------
+   MEDIA QUERIES
+----------------------------------------------------------- */
+
+/* TABLETTES */
+@media (max-width: 992px) {
+
+  #section1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #titre span {
+    font-size: 24px;
+  }
+
+  .slogan {
+    font-size: 16px;
+  }
+
+  #conteneurservices {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* MOBILES */
+@media (max-width: 768px) {
+
+  #section1 {
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #titre span {
+    font-size: 20px;
+  }
+
+  .slogan {
+    font-size: 14px;
+  }
+
+  .imageportfolio {
+    width: 90%;
+  }
+
+  .table1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .background {
+  height: 350px;
+  padding-left: 40px;
+  padding-right: 20px;
+  margin-top: 80px;
+}
+
+#titre h1 {
+  font-size: 20px;
+}
+
+.slogan {
+  font-size: 14px;
+  max-width: 100%;
+}
+
+
+  .flechedroite,
+  .flechegauche {
+    font-size: 30px;
+  }
+
+  .demicerclegauche,
+  .demicercledroit {
+    width: 30px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .background {
+  height: 350px;
+  background-size: contain;
+  background-position: center center;
+}
+
+
+  #titre h1 {
+    font-size: 20px;
+  }
+
+  .slogan {
+    font-size: 14px;
+  }
+
+  .flechedroite,
+  .flechegauche {
+    font-size: 30px;
+  }
+
+  .demicerclegauche,
+  .demicercledroit {
+    width: 30px;
+    height: 60px;
+  }
+}
+

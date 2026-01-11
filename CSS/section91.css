@@ -1,0 +1,65 @@
+/**************************************************************************************************************************/
+                                            /**Section 9 : IMAGES DES PROJETS**/
+/**************************************************************************************************************************/
+
+#conteneur
+{   
+    display: flex;
+    flex-direction: column;
+    /*align-items: stretch;*/
+    background-image: url(../images/portfolio/01.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+}
+
+.element
+{
+    height: 63px;
+    width: 290px;
+}
+
+.element:nth-child(1)
+{
+    opacity: 0;
+}
+
+.element:nth-child(2)
+{
+    color:rgba(0,0,0,0)
+}
+
+.element:nth-child(3)
+{
+    color:rgba(0,0,0,0)
+}
+
+.element:nth-child(3):hover
+{
+    background-color: rgba(0,0,0,0.5);
+    color:#FFF;
+    opacity: 1;
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.port:hover
+{
+    position:relative;
+}
+
+.ruban
+{
+    position:absolute; 
+    top:-25px; 
+    left:250px;
+    display: none;
+}
+
+.port:hover .ruban
+{
+    display: block;
+}
+
+
+

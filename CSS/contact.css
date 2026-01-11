@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fontawesome-webfont.eot');
+  src: url('fontawesome-webfont.eot#iefix&'), 
+      url('fontawesome-webfont.woff2'), 
+      url('fontawesome-webfont.woff'), 
+      url('fontawesome-webfont.ttf'), 
+      url('fontawesome-webfont.svg#fontawesomeregular');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DroidSans';
+  src: url('DroidSans.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body{
+    background-image:url(images/paris.png);
+    z-index: 1;
+    position: absolute;
+    font-family: 'FontAwesome','DroidSans';
+}
+
+#section1{
+    z-index: 2;
+    position: absolute;
+    font-family: 'FontAwesome','DroidSans';
+    background-image:url(webagency_images/images/paris.png);
+}
+
+.table1{
+    background-color: rgba(255,255,255,0.8);
+    margin-left: 950px;
+    width: 300px;
+    height: 550px;
+    font-family: 'FontAwesome','DroidSans';
+    }
+.table2{
+    background-color: #FFF;
+    margin-left: 20px;
+    width: 260px;
+    height: 20px;
+    font-family: 'FontAwesome','DroidSans';
+    border:solid 1px blue;
+    border-radius:2px;
+    }
+
+.table3{
+    background-color: #FFF;
+    margin-left: 20px;
+    width: 260px;
+    height: 200px;
+    font-family: 'FontAwesome','DroidSans';
+    border:solid 1px blue;
+    border-radius:2px;
+    }
+
+h3{
+    margin-left: 20px;
+    font-family: 'FontAwesome','DroidSans';
+    line-height: 40px;
+}
+
+h5{
+    margin-left: 20px;
+    font-family: 'FontAwesome','DroidSans';
+}
+
+p{
+    margin-left: 20px;
+    font-family: 'FontAwesome','DroidSans';
+}
+
+.btn-bleu {
+    margin-left: 20px;
+    background-color: #5CADD3;
+    border-color:  #5CADD3;
+    color: #FFF;
+    font-family: 'FontAwesome','DroidSans';
+    opacity: 1.0;
+    }
+td{
+    vertical-align: top;
+}
