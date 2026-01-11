@@ -282,6 +282,11 @@ section {
 /* MOBILES */
 @media (max-width: 768px) {
 
+   .background { 
+      background-size: contain; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+   }
   #section1 {
     padding: 10px;
   }
