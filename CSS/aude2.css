@@ -287,32 +287,35 @@ section {
    text-align: center; 
    margin: 0 auto; 
    font-size: 18px; 
-} 
+
+} #titre h1 { 
+   font-size: 18px; 
+   line-height: 1.3; 
    
-   #titre h1 { 
-      font-size: 18px; 
-      line-height: 1.3; 
-   } 
-   
-   .slogan { 
-      text-align: center; 
-      font-size: 14px; 
-      margin-top: 10px; 
-   }
+} .slogan { 
+   text-align: center; 
+   font-size: 14px; 
+   margin-top: 10px; 
+}
    
 #section1 { 
-   flex-direction: column; 
-   align-items: center; 
-   text-align: center; } 
-   
-   #menu { margin-right: 0; 
-         } 
-   
+   flex-direction: 
+      column; align-items: center; 
+   text-align: center; 
+} 
+   #menu { 
+      margin-right: 0; 
+   } 
    nav ul { 
       flex-direction: column; 
       gap: 10px; 
    }
    
+   .background { 
+      background-size: contain; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+   }
   #section1 {
     padding: 10px;
   }
@@ -337,9 +340,7 @@ section {
   .table1 {
     width: 90%;
   }
-}
 
-@media (max-width: 768px) {
   .background {
   height: 350px;
   padding-left: 40px;
@@ -347,16 +348,6 @@ section {
   margin-top: 80px;
 }
 
-#titre h1 {
-  font-size: 20px;
-}
-
-.slogan {
-  font-size: 14px;
-  max-width: 100%;
-}
-
-
   .flechedroite,
   .flechegauche {
     font-size: 30px;
@@ -368,32 +359,3 @@ section {
     height: 60px;
   }
 }
-
-@media (max-width: 768px) {
-  .background { 
-     background-size: contain; 
-     background-position: center; 
-     background-repeat: no-repeat; 
-  }
-
-
-  #titre h1 {
-    font-size: 20px;
-  }
-
-  .slogan {
-    font-size: 14px;
-  }
-
-  .flechedroite,
-  .flechegauche {
-    font-size: 30px;
-  }
-
-  .demicerclegauche,
-  .demicercledroit {
-    width: 30px;
-    height: 60px;
-  }
-}
-
