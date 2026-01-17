@@ -144,8 +144,8 @@ nav a:hover {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  padding: 0 40px; /* équilibre gauche/droite */
+  justify-content: space-between; /* ⬅️ équilibre gauche/droite */
+  padding: 0 60px;
   margin-top: 90px;
   overflow: hidden;
   transition: background-image 1s ease-in-out;
@@ -160,15 +160,6 @@ nav a:hover {
   z-index: 6;
 }
 
-
-
-
-#titre h1 {
-  font-size: 28px;
-  line-height: 1.4;
-  margin: 0;
-}
-
 /* Flèches */
 .flechedroite,
 .flechegauche {
@@ -177,14 +168,20 @@ nav a:hover {
   transform: translateY(-50%);
   font-size: 40px;
   color: white;
-  z-index: 7;
+  z-index: 8;
   cursor: pointer;
-  padding: 10px;
+  padding: 0;
+  width: 40px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.flechedroite { right: 20px; }
-.flechegauche { left: 20px; }
+.flechedroite { right: 0; }
+.flechegauche { left: 0; }
 
+/* Demi-cercles */
 .demicerclegauche,
 .demicercledroit {
   position: absolute;
@@ -193,7 +190,7 @@ nav a:hover {
   width: 40px;
   height: 80px;
   background-color: rgba(0,0,0,0.3);
-  z-index: 4;
+  z-index: 7;
 }
 
 .demicerclegauche {
@@ -205,6 +202,14 @@ nav a:hover {
   right: 0;
   border-radius: 40px 0 0 40px;
 }
+
+#titre h1 {
+  font-size: 28px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+
 
 /* -----------------------------------------------------------
    SECTIONS GÉNÉRALES
