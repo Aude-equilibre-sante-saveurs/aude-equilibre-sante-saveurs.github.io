@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aude-equilibre-sante-et-saveurs.github.io/sitemap.xml
