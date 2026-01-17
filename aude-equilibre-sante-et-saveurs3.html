@@ -35,6 +35,33 @@
     <meta name="twitter:image" content="https://aude-equilibre-sante-saveurs.github.io/images/logo.png">
 </head>
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+    // Liste des images du slider
+    const slides = [
+        "images/slider/av-ap.jpg",
+        "images/slider/bg6.jpg",
+        "images/slider/bg5.jpg"
+    ];
+
+    let index = 0;
+
+    // Sélectionne la div .background
+    const bg = document.querySelector(".background");
+
+    // Fonction de changement d’image
+    function changeSlide() {
+        index = (index + 1) % slides.length;
+        bg.style.backgroundImage = "url(" + slides[index] + ")";
+    }
+
+    // Change d’image toutes les 5 secondes
+    setInterval(changeSlide, 5000);
+});
+</script>
+
+    
 <body>
 <div id="conteneur">
 
