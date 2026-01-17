@@ -299,9 +299,10 @@ section {
 }
    
 #section1 { 
-   flex-direction: 
-      column; align-items: center; 
+   flex-direction: column; 
+   align-items: center; 
    text-align: center; 
+   padding: 10px;
 } 
    #menu { 
       margin-right: 0; 
@@ -315,38 +316,23 @@ section {
       background-size: contain; 
       background-position: center; 
       background-repeat: no-repeat; 
+      height: 350px;
+      padding-left: 40px;
+      padding-right: 20px;
+      margin-top: 80px;
    }
-  #section1 {
-    padding: 10px;
-  }
-
-  nav ul {
-    flex-direction: column;
-    gap: 8px;
-  }
-
+  
   #titre span {
     font-size: 20px;
   }
 
-  .slogan {
-    font-size: 14px;
-  }
-
-  .imageportfolio {
+    .imageportfolio {
     width: 90%;
   }
 
   .table1 {
     width: 90%;
   }
-
-  .background {
-  height: 350px;
-  padding-left: 40px;
-  padding-right: 20px;
-  margin-top: 80px;
-}
 
   .flechedroite,
   .flechegauche {
