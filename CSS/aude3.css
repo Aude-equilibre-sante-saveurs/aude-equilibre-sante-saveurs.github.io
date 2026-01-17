@@ -144,12 +144,12 @@ nav a:hover {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* ⬅️ aligne le contenu à gauche */
-  padding-left: 60px;
-  padding-right: 20px;
+  justify-content: flex-start;
+  padding: 0 40px; /* équilibre gauche/droite */
   margin-top: 90px;
   overflow: hidden;
   transition: background-image 1s ease-in-out;
+  box-sizing: border-box;
 }
 
 #titre {
@@ -157,7 +157,9 @@ nav a:hover {
   color: greenyellow;
   font-family: cursive;
   text-align: left;
+  z-index: 6;
 }
+
 
 
 #titre h1 {
@@ -174,12 +176,14 @@ nav a:hover {
   transform: translateY(-50%);
   font-size: 40px;
   color: white;
-  z-index: 5;
+  z-index: 7;
   cursor: pointer;
+  padding: 10px;
 }
 
-.flechedroite { right: 0; }
-.flechegauche { left: 0; }
+.flechedroite { right: 20px; }
+.flechegauche { left: 20px; }
+
 
 .demicerclegauche,
 .demicercledroit {
