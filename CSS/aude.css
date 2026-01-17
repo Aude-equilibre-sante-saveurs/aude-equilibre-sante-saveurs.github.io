@@ -340,9 +340,7 @@ section {
   .table1 {
     width: 90%;
   }
-}
 
-@media (max-width: 768px) {
   .background {
   height: 350px;
   padding-left: 40px;
@@ -350,16 +348,6 @@ section {
   margin-top: 80px;
 }
 
-#titre h1 {
-  font-size: 20px;
-}
-
-.slogan {
-  font-size: 14px;
-  max-width: 100%;
-}
-
-
   .flechedroite,
   .flechegauche {
     font-size: 30px;
@@ -372,31 +360,5 @@ section {
   }
 }
 
-@media (max-width: 768px) {
-  .background {
-  height: 350px;
-  background-size: contain;
-  background-position: center center;
-}
 
-
-  #titre h1 {
-    font-size: 20px;
-  }
-
-  .slogan {
-    font-size: 14px;
-  }
-
-  .flechedroite,
-  .flechegauche {
-    font-size: 30px;
-  }
-
-  .demicerclegauche,
-  .demicercledroit {
-    width: 30px;
-    height: 60px;
-  }
-}
 
