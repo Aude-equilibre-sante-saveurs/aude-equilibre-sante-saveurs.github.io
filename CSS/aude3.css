@@ -136,7 +136,7 @@ nav a:hover {
 }
 
 .background {
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
@@ -144,8 +144,9 @@ nav a:hover {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 0 20px;
+  justify-content: flex-start; /* ⬅️ aligne le contenu à gauche */
+  padding-left: 60px;
+  padding-right: 20px;
   margin-top: 90px;
   overflow: hidden;
   transition: background-image 1s ease-in-out;
@@ -155,8 +156,9 @@ nav a:hover {
   max-width: 500px;
   color: greenyellow;
   font-family: cursive;
-  text-align: center;
+  text-align: left;
 }
+
 
 #titre h1 {
   font-size: 28px;
