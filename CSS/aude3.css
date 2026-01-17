@@ -160,7 +160,7 @@ nav a:hover {
   z-index: 6;
 }
 
-/* Flèches */
+/* Flèches 
 .flechedroite,
 .flechegauche {
   position: absolute;
@@ -181,7 +181,7 @@ nav a:hover {
 .flechedroite { right: 0; }
 .flechegauche { left: 0; }
 
-/* Demi-cercles */
+ Demi-cercles 
 .demicerclegauche,
 .demicercledroit {
   position: absolute;
@@ -201,7 +201,7 @@ nav a:hover {
 .demicercledroit {
   right: 0;
   border-radius: 40px 0 0 40px;
-}
+}*/
 
 #titre h1 {
   font-size: 28px;
