@@ -312,7 +312,16 @@ section {
 
 /* MOBILES */
 @media (max-width: 768px) {
-
+ 
+   .titre-site { 
+      font-size: 16px; 
+      line-height: 1.2; 
+   } 
+    
+   nav a { 
+      font-size: 0.85em; 
+   }
+   
    .flechedroite, 
    .flechegauche, 
    .demicerclegauche, 
@@ -324,12 +333,12 @@ section {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 10px;
+    padding: 5px 10px;
   }
 
   nav ul {
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
   }
 
   .background { 
