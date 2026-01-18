@@ -303,7 +303,7 @@ section {
    padding-left: 20px; 
    padding-right: 20px; 
    height: 300px; /* plus petit mais cohérent */ 
-   margin-top: 70px; 
+   margin-top: 120px; /* Ajuste selon la hauteur réelle du menu */ 
   }
 
   #titre {
