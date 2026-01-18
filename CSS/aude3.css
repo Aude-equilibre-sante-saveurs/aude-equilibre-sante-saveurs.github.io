@@ -122,7 +122,7 @@ nav a:hover {
 /* -----------------------------------------------------------
    SECTION 2 : IMAGE D’ACCUEIL
 ----------------------------------------------------------- */
-/* Images de slide par page */
+/* Images de slide par page 
 .bg1 {
   background-image: url(../images/slider/av-ap.jpg);
 }
@@ -133,7 +133,7 @@ nav a:hover {
 
 .bg3 {
   background-image: url(../images/slider/bg5.jpg);
-}
+}*/
 
 .background {
   background-size: cover;
