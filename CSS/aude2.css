@@ -270,27 +270,34 @@ section {
 /* MOBILES */
 @media (max-width: 768px) {
 
-  .flechedroite, 
+  .titre-site { 
+      font-size: 16px; 
+      line-height: 1.2; 
+   } 
+    
+   nav a { 
+      font-size: 0.85em; 
+   }
+   
+   .flechedroite, 
    .flechegauche, 
    .demicerclegauche, 
    .demicercledroit { 
       display: none !important; 
    }
    
-  /* Menu */
   #section1 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 10px;
+    padding: 5px 10px;
   }
 
   nav ul {
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
   }
 
-  /* Slide */
   .background { 
    justify-content: flex-start; 
    padding-left: 20px; 
@@ -299,18 +306,25 @@ section {
    margin-top: 70px; 
   }
 
+  #titre {
+    text-align: center;
+    margin: 0 auto;
+  }
+
   #titre h1 {
     font-size: 18px;
+    line-height: 1.3;
   }
 
   .accroche {
     font-size: 16px;
   }
 
-  /* Flèches */
   .flechedroite,
   .flechegauche {
     font-size: 30px;
+    width: 30px;
+    height: 60px;
   }
 
   .demicerclegauche,
@@ -319,12 +333,10 @@ section {
     height: 60px;
   }
 
-  /* Images plats */
   .imageportfolio {
     width: 90%;
   }
 
-  /* Contact */
   .table1 {
     width: 90%;
   }
