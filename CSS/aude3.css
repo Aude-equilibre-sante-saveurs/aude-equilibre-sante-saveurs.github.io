@@ -315,6 +315,10 @@ section {
 /* MOBILES */
 @media (max-width: 768px) {
 
+  body {
+     background-color: white;
+  }
+   
   /* Menu */
   #section1 {
     flex-direction: column;
@@ -332,6 +336,7 @@ section {
   .background {
     height: 350px;
     margin-top: 80px;
+    background-color: white;
   }
 
   #titre h1 {
