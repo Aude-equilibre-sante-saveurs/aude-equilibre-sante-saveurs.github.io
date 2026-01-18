@@ -58,6 +58,18 @@ a {
   text-align: left;
 }
 
+.liste-orange ul {
+  list-style-position: outside;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.liste-orange li {
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+
 .titre-site {
   color: green;
   font-size: 18px;
