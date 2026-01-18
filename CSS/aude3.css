@@ -314,6 +314,13 @@ section {
 
 /* MOBILES */
 @media (max-width: 768px) {
+
+   .flechedroite, 
+   .flechegauche, 
+   .demicerclegauche, 
+   .demicercledroit { 
+      display: none !important; 
+   }
    
   /* Menu */
   #section1 {
