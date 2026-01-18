@@ -281,6 +281,10 @@ section {
 /* MOBILES */
 @media (max-width: 768px) {
 
+   body {
+      background-color: darkgreen;
+   }
+   
   .titre-site { 
       font-size: 16px; 
       line-height: 1.2; 
@@ -302,6 +306,7 @@ section {
     align-items: center;
     text-align: center;
     padding: 5px 10px;
+    background-color: darkgreen;
   }
 
   nav ul {
